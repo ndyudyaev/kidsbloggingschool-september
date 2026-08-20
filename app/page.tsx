@@ -206,7 +206,7 @@ export default function Home() {
       <section className="hero" id="top">
         <nav className="nav" aria-label="Навигация">
           <a className="brand header-brand" href="#top" aria-label="Kids Blogging School — Мягкий старт, в начало">
-            <img className="brand-logo" src="/brand/kbs-logo.svg" alt="Kids Blogging School" width={545} height={162} fetchPriority="high" />
+            <img className="brand-logo" src="./brand/kbs-logo.svg" alt="Kids Blogging School" width={545} height={162} fetchPriority="high" />
             <span className="brand-divider" aria-hidden="true" />
             <span className="material-name">Мягкий старт</span>
           </a>
@@ -380,7 +380,7 @@ export default function Home() {
 
       <footer>
         <div className="section-shell footer-grid">
-          <div><div className="footer-brand"><img className="brand-logo" src="/brand/kbs-logo.svg" alt="Kids Blogging School" width={545} height={162} loading="lazy" /></div><p>«Мягкий старт» — практический материал для родителей.</p></div>
+          <div><div className="footer-brand"><img className="brand-logo" src="./brand/kbs-logo.svg" alt="Kids Blogging School" width={545} height={162} loading="lazy" /></div><p>«Мягкий старт» — практический материал для родителей.</p></div>
           <div className="sources"><b>На чём основаны рекомендации</b><a href="https://www.healthychildren.org/English/ages-stages/gradeschool/school/Pages/back-to-school-tips.aspx" target="_blank" rel="noreferrer">American Academy of Pediatrics ↗</a><a href="https://www.cdc.gov/physical-activity-education/staying-healthy/sleep.html" target="_blank" rel="noreferrer">CDC: сон школьников ↗</a><a href="https://www.unicef.org/parenting/child-care/handling-holidays" target="_blank" rel="noreferrer">UNICEF Parenting ↗</a></div>
         </div>
         <div className="section-shell footer-note">Материал носит образовательный характер. Если тревога, бессонница или отказ идти в школу сохраняются и заметно мешают жизни, стоит обсудить это с педиатром или детским психологом.</div>
